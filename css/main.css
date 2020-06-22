@@ -20,3 +20,17 @@
 #okay {
     color: white !important;
 }
+
+@media screen and (min-width: 700px) {
+    .content {
+        font-size: 36pt;
+        margin-top: 5rem;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar.navbar-dark.bg-primary {
+        min-height: 8rem;
+        font-size: 24pt;
+    }
+}
